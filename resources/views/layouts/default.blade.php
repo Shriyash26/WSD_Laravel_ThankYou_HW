@@ -3,9 +3,9 @@
 <head>
     @include('includes.head')
 </head>
-<body>
-<h1>Hello, world!</h1>
 
+<body>
+@yield('content')
 @include('includes.jsfooter')
 </body>
 </html>
