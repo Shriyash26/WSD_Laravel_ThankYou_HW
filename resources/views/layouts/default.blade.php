@@ -3,9 +3,15 @@
 <head>
     @include('includes.head')
 </head>
-
+<header>
+    @include('includes.header')
+</header>
 <body>
-@yield('content')
+
+<main role="main">
+    @yield('content')
+</main>
+@include('includes.footer')
 @include('includes.jsfooter')
 </body>
 </html>
